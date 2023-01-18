@@ -5,7 +5,7 @@ import LoadingSpinner from "./loading.gif";
 
 export default class PokemonList extends Component {
   state = {
-    url: "https://pokeapi.co/api/v2/pokemon/?limit=905",
+    url: "https://pokeapi.co/api/v2/pokemon/?limit=1008",
     pokemon: null,
   };
 
